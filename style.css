@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+header{
+ background-image: url(./img/Grupo\ 22@2x.jpg);
+ height: 640px;
+ color: white;
+}
+.header-logo{
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 100px;
+    align-items: center;
+}
+.header-list{
+    list-style: none;
+    padding-top: 30px;
+    margin-left: 150px;
+    display: inline-flex;
+}
+.header-main{
+    display: flex;
+}
+.header-list li{
+    margin-left: 60px;
+    font-size: 27px;
+    margin-bottom: 40px;
+}
+.header-play{
+    margin-top: 30px;
+    display: flex;
+}
+.header-play-list{
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+.header-play-img{
+    background-color: transparent;
+}
+.header-play-list li{
+    width: 200px;
+    margin-bottom: 20px;
+    border: #626262 solid 1px;
+    border-radius: 40px;
+    padding: 15px;
+    margin-right: 600px;
+}
