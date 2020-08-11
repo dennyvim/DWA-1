@@ -181,3 +181,17 @@ header{
 .album-container{
     text-align: center;
 }
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer-list{
+    display: flex;
+}
+.footer-item{
+    display: flex;
+}
