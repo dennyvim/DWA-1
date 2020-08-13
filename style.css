@@ -188,10 +188,27 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
+    position: relative;
+    background-color: #f4f4f4;
 }
+
+.events {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    border-radius: 20px;
+}
+
 .footer-list{
     display: flex;
+    justify-content: space-evenly;
 }
 .footer-item{
     display: flex;
+}
+.buttom{
+    height: 30px;
 }
